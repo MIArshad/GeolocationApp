@@ -65,7 +65,6 @@ public class LoginActivity extends AppCompatActivity {
                         ///////////////////////////////////////////////////////////////////////////
                         ////////////////insert code to take to home screen activity////////////////
                         ///////////////////////////////////////////////////////////////////////////
-
                     }
                     //authentication wasn't succesful
                     else
@@ -77,13 +76,10 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
-
-
     }
 
     public void initCreateAccountTextView()
     {
-
         //if the user clicks the button to indicate that they don't have an account, start the register activity
         TextView textViewCreateAccount = (TextView) findViewById(R.id.textViewCreateAccount);
         textViewCreateAccount.setText(fromHtml("<font color='#fffff>I don't have an account yet!</font> <font color='#0c0099'>Create one</font>"));
@@ -151,7 +147,6 @@ public class LoginActivity extends AppCompatActivity {
                 textInputLayoutPassword.setError("Password is to short!");
             }
         }
-
         return valid;
     }
 }

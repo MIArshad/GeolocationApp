@@ -21,15 +21,12 @@
             android:inputType="textPersonName"
             android:text="Enter Username..." />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Username..." />
-
-        <TextView
+        <EditText
             android:id="@+id/login_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
             android:text="Enter Password..." />
 
         <Button
